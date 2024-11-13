@@ -624,4 +624,129 @@ img {
     }
 }
 
+  /* subscribe */
+  .custom-white {
+    background-color: #fff;
+  }
+  
+  .custom-margin {
+    margin: 16px 0;
+  }
+  
+  .custom-container {
+    padding: 0.01em 16px;
+  }
+  
+  .custom-padding {
+    padding: 8px 16px !important;
+  }
+  
+  .custom-dark {
+    background-color: #000;
+    color: #fff;
+  }
+  
+  .custom-dark h4 {
+    margin: 10px 0;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+  }
+  
+  .custom-input {
+    padding: 8px;
+    display: block;
+    border: 1px solid #ccc;
+    width: 100%;
+    margin: 8px 0;
+    font-family: 'Open Sans', sans-serif;
+  }
+  
+  .custom-border {
+    border: 1px solid #ccc !important;
+  }
+  
+  .custom-button {
+    border: none;
+    display: inline-block;
+    padding: 8px 16px;
+    vertical-align: middle;
+    overflow: hidden;
+    text-decoration: none;
+    color: #fff;
+    background-color: inherit;
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    transition: background-color 0.3s ease;
+  }
+  
+  .custom-block {
+    display: block;
+    width: 100%;
+  }
+  
+  .custom-danger {
+    background-color: #f44336;
+  }
+  
+  /* Hover effects */
+  .custom-button:hover {
+    background-color: #da190b !important;
+  }
+  
+  .custom-input:focus {
+    outline: none;
+    border-color: #f44336;
+  }
+  /* Tag Container */
+.tag-container {
+    background-color: #fff;
+    margin: 16px 0;
+  }
+  
+  /* Tag Header */
+  .tag-header {
+    padding: 8px 16px;
+    padding: 8px 16px !important;
+  }
+  
+  /* Custom Black */
+  .custom-black {
+    background-color: #000;
+    color: #fff;
+  }
+  
+  /* Custom Tag */
+  .custom-tag {
+    display: inline-block;
+    padding: 4px 8px;
+    border-radius: 4px;
+    margin-right: 4px;
+    transition: all 0.3s ease;
+  }
+  
+  .custom-tag:hover {
+    opacity: 0.8;
+    cursor: pointer;
+  }
+  
+  .custom-tag.custom-black {
+    background-color: #000;
+    color: #fff;
+  }
+  
+  .custom-tag.custom-light-grey {
+    background-color: #f1f1f1;
+    color: #000;
+  }
+  
+  .custom-small {
+    font-size: 14px;
+  }
+  
+  .custom-margin-bottom {
+    margin-bottom: 8px;
+  }
   
