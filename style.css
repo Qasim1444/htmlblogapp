@@ -1,4 +1,4 @@
-body{
+body {
     margin: 0;
 }
 
@@ -28,12 +28,11 @@ body{
     transition: background-color 0.3s;
 }
 
-.nav-item-start
-{
-   padding-top: 11px;
-   padding-bottom: 8px;
-   padding-right: 15px;
-   padding-left: 16px;
+.nav-item-start {
+    padding-top: 11px;
+    padding-bottom: 8px;
+    padding-right: 15px;
+    padding-left: 16px;
     float: left;
     text-align: center;
     text-decoration: none;
@@ -51,13 +50,15 @@ body{
     color: #0c0c0c;
 
 }
+
 .nav-item-start:hover {
     background-color: #CCCCCC;
     color: #0c0c0c;
 }
+
 .float-right {
     float: right !important;
-  
+
 }
 
 /* For screens smaller than 600px */
@@ -72,11 +73,12 @@ body{
 .container {
     color: #000 !important;
     background-color: #fff !important;
-   
+
     padding-bottom: 48px !important;
     text-align: center !important;
     padding: 0.01em 16px;
 }
+
 .title-large {
     font-size: 43px;
     font-family: "Oswald";
@@ -84,9 +86,10 @@ body{
     margin: 10px 0;
     text-align: center !important;
 }
+
 .block-welcome {
     font-family: "Oswald";
-    font-size:16px;
+    font-size: 16px;
     line-height: 24px;
     font-weight: 400;
     margin: 10px 0;
@@ -114,6 +117,7 @@ body{
     letter-spacing: 4px;
     margin-top: 59px;
 }
+
 /* Image styles */
 .hero-image {
     width: 100%;
@@ -137,13 +141,15 @@ body{
 .text-white {
     color: white;
 }
-.jane{
+
+.jane {
     font-size: 36px;
     line-height: 54px;
     font-family: "Oswald";
     font-weight: 400;
     margin: 10px 0;
 }
+
 .jumbo {
     font-size: 64px;
     font-family: "Oswald";
@@ -162,7 +168,7 @@ body{
     text-decoration: none;
     text-align: center;
     cursor: pointer;
-    white-space: nowrap; 
+    white-space: nowrap;
     color: #000;
     background-color: #fff;
 
@@ -194,11 +200,11 @@ body{
 
 /* Main content layout */
 .content {
-    max-width: 1322px;
+
     margin: 0 auto;
-    padding: 8px;
+    padding: 8px 16px;
     display: flex;
-    gap: 0px;
+
 }
 
 /* Main column (larger) */
@@ -215,7 +221,7 @@ body{
 .content__container {
     background-color: #fff;
     border-radius: 4px;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     margin: 16px;
     padding: 24px;
 }
@@ -225,7 +231,7 @@ body{
     .content {
         flex-direction: column;
     }
-    
+
     .content__main,
     .content__sidebar {
         flex: 0 0 100%;
@@ -233,49 +239,46 @@ body{
 }
 
 
+
 /* blog section */
 
 
-.custom-font
-{
+.custom-font {
     font-family: "Open Sans";
     font-size: 15px;
     line-height: 23px;
     font-style: normal;
     font-weight: 400;
- opacity: 0.73;
+    margin-top: 10px;
     font-style: normal;
 }
 
 /* Container Styles */
 .custom-container {
-    background-color: #fff;
-    margin: 16px;
-    padding: 16px;
-   
-    padding: 12px 24px;
-    margin: 16px;
+
     color: #000;
     background-color: #fff;
 }
-.custom-container h3
-{
+
+.custom-container h3 {
     font-family: "Oswald";
     line-height: 36px;
-        font-weight: 400;
-        color: 
-        rgb(0, 0, 0)
-        ;
+    font-weight: 400;
+    color:rgb(0, 0, 0);
     font-size: 24px;
+    margin-top: -2px;
 }
-.custom-container h5
-{
+
+.custom-container h5 {
     font-family: "Oswald";
     line-height: 27px;
-        font-weight: 400;
-        color: rgb(0, 0, 0);
+    font-weight: 400;
+    color: rgb(0, 0, 0);
     font-size: 18px;
+    margin-top: -14px;
+    margin-bottom: 11px;
 }
+
 .custom-center {
     text-align: center;
 }
@@ -297,7 +300,7 @@ body{
 .custom-button {
     border: none;
     display: inline-block;
-    padding: 8px 16px;
+    padding: 12px 18px;
     vertical-align: middle;
     overflow: hidden;
     text-decoration: none;
@@ -318,10 +321,21 @@ body{
 .custom-black {
     color: #fff;
     background-color: #000;
+    font-family: "Open Sans";
+    font-size: 15px;
+    line-height: 15px;
+    font-style: normal;
+    letter-spacing: -1px;
+
 }
 
 .custom-border {
-    border: 1px solid #ccc;
+    border: 1px solid #ccc; 
+    font-family: "Open Sans";
+    font-size: 15px;
+    line-height: 15px;
+    font-style: normal;
+ 
 }
 
 /* Tag Styles */
@@ -353,22 +367,14 @@ body{
 
 .custom-col.like {
     width: 16.66666%;
-    font-family: "Open Sans";
-    font-size: 15px;
-    line-height: 15px;
-    font-style: normal;
-    font-weight: 400;
- 
- 
+   
+
+
 }
 
 .custom-col.reply {
     width: 83.33333%;
-    font-family: "Open Sans";
-    font-size: 15px;
-    line-height: 15px;
-    font-style: normal;
-    font-weight: 400;
+   
 }
 
 /* Responsive Design */
@@ -376,6 +382,7 @@ body{
     .custom-col.m3 {
         width: 25%;
     }
+
     .custom-col.m9 {
         width: 75%;
     }
@@ -394,6 +401,7 @@ body{
 
 .custom-left {
     float: left;
+    margin-bottom: 18px;
 }
 
 .custom-right {
@@ -409,344 +417,3 @@ img {
     max-width: 100%;
     height: auto;
 }
-
-/* profile card */
-.profile-card {
-    background-color: #fff;
-    margin: 16px 0;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-    border-radius: 4px;
-    overflow: hidden;
-}
-
-.profile-card img {
-    width: 100%;
-    display: block;
-    filter: grayscale(100%);
-    transition: filter 0.3s ease;
-}
-
-.profile-card img:hover {
-    filter: grayscale(0%);
-}
-
-.profile-info {
-    background-color: #000;
-    color: #fff;
-    padding: 20px;
-}
-
-.profile-info h4 {
-    margin: 0 0 12px 0;
-    font-family: 'Oswald', sans-serif;
-    font-size: 20px;
-    letter-spacing: 1px;
-}
-
-.profile-info p {
-    margin: 0;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 14px;
-    line-height: 1.6;
-    color: #f1f1f1;
-}
-
-/* popular post */
-.fourcardcolfooter {
-   
-    float: left;
-    width: 30%;
-  }
-  .fourcardcolfooter h3 {
-    font-family: "Raleway, sans-serif";
-    font-weight: 400;
-    font-style: normal;
-    color: rgb(255, 255, 255);
-    font-size: 24px;
-    line-height: 36px;
-  }
-  .fourcardcolfooter {
-    padding-left: 0;
-    /* Remove left padding */
-    padding-right: 0;
-    /* Remove right padding */
-    margin-bottom: 16px !important;
-    float: none;
-    /* Remove float */
-    width: 100%;
-    box-sizing: border-box;
-    /* Include padding in width calculation */
-  }
-  .paddingleft {
-    float: left;
-    margin-right: 16px;
-  }
-
-
-
-  /* Advertisement Section Styles */
-
-  .ad-container {
-    background-color: #fff;
-    margin: 16px 0;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-  }
-
-  .ad-header {
-    background-color: #000;
-    padding: 12px 16px;
-  }
-
-  .ad-header h4 {
-    color: #fff;
-    margin: 0;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 18px;
-  }
-
-  .ad-content {
-    padding: 16px;
-  }
-
-  .ad-placeholder {
-    background-color: #f1f1f1;
-    height: 200px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 8px 0;
-  }
-
-  .ad-placeholder span {
-    color: #666;
-    font-family: 'Open Sans', sans-serif;
-  }
-
-
-/* social */
-
-  /* Follow Me Section Styles */
-.social-card {
-    background-color: #fff;
-}
-
-.card-margin {
-    margin: 16px;
-}
-
-.card-container {
-    padding: 0.01em 16px;
-}
-
-.card-padding {
-    padding: 8px 16px !important;
-}
-
-.theme-dark {
-    color: #fff !important;
-    background-color: #000 !important;
-}
-
-.text-xlarge {
-    font-size: 24px !important;
-}
-
-/* Social Media Icons */
-.card-container i {
-    margin-right: 12px;
-    cursor: pointer;
-    transition: opacity 0.3s ease;
-}
-
-.hover-opacity:hover {
-    opacity: 0.6;
-}
-
-/* Header Style */
-.card-container h4 {
-    margin: 10px 0;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 400;
-}
-
-/* Inspiration Section Styles */
-.inspiration-section {
-    background-color: #fff;
-    margin: 16px 0;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-}
-
-.inspiration-header {
-    background-color: #000;
-    padding: 12px 16px;
-}
-
-.inspiration-header h4 {
-    color: #fff;
-    margin: 0;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 20px;
-}
-
-.inspiration-content {
-    padding: 16px;
-}
-
-.inspiration-row {
-    display: flex;
-    margin: 0 -8px;
-
-}
-
-.inspiration-col {
-    flex: 0 0 50%;
-    padding: 0 8px;
-}
-
-.inspiration-col img {
-    width: 100%;
-    margin-bottom: 16px;
-    transition: opacity 0.3s ease;
-}
-
-.inspiration-col img:hover {
-    opacity: 0.8;
-}
-
-.grayscale {
-    filter: grayscale(100%);
-}
-
-/* Responsive adjustments */
-@media (max-width: 600px) {
-    .inspiration-col {
-        flex: 0 0 100%;
-    }
-}
-
-  /* subscribe */
-  .custom-white {
-    background-color: #fff;
-  }
-  
-  .custom-margin {
-    margin: 16px 0;
-  }
-  
-  .custom-container {
-    padding: 0.01em 16px;
-  }
-  
-  .custom-padding {
-    padding: 8px 16px !important;
-  }
-  
-  .custom-dark {
-    background-color: #000;
-    color: #fff;
-  }
-  
-  .custom-dark h4 {
-    margin: 10px 0;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 500;
-  }
-  
-  .custom-input {
-    padding: 8px;
-    display: block;
-    border: 1px solid #ccc;
-    width: 100%;
-    margin: 8px 0;
-    font-family: 'Open Sans', sans-serif;
-  }
-  
-  .custom-border {
-    border: 1px solid #ccc !important;
-  }
-  
-  .custom-button {
-    border: none;
-    display: inline-block;
-    padding: 8px 16px;
-    vertical-align: middle;
-    overflow: hidden;
-    text-decoration: none;
-    color: #fff;
-    background-color: inherit;
-    text-align: center;
-    cursor: pointer;
-    white-space: nowrap;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 500;
-    transition: background-color 0.3s ease;
-  }
-  
-  .custom-block {
-    display: block;
-    width: 100%;
-  }
-  
-  .custom-danger {
-    background-color: #f44336;
-  }
-  
-  /* Hover effects */
-  .custom-button:hover {
-    background-color: #da190b !important;
-  }
-  
-  .custom-input:focus {
-    outline: none;
-    border-color: #f44336;
-  }
-  /* Tag Container */
-.tag-container {
-    background-color: #fff;
-    margin: 16px 0;
-  }
-  
-  /* Tag Header */
-  .tag-header {
-    padding: 8px 16px;
-    padding: 8px 16px !important;
-  }
-  
-  /* Custom Black */
-  .custom-black {
-    background-color: #000;
-    color: #fff;
-  }
-  
-  /* Custom Tag */
-  .custom-tag {
-    display: inline-block;
-    padding: 4px 8px;
-    border-radius: 4px;
-    margin-right: 4px;
-    transition: all 0.3s ease;
-  }
-  
-  .custom-tag:hover {
-    opacity: 0.8;
-    cursor: pointer;
-  }
-  
-  .custom-tag.custom-black {
-    background-color: #000;
-    color: #fff;
-  }
-  
-  .custom-tag.custom-light-grey {
-    background-color: #f1f1f1;
-    color: #000;
-  }
-  
-  .custom-small {
-    font-size: 14px;
-  }
-  
-  .custom-margin-bottom {
-    margin-bottom: 8px;
-  }
-  
