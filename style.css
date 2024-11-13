@@ -461,5 +461,112 @@ img {
     color: #f1f1f1;
 }
 
-/* popular post */
 
+
+  /* Advertisement Section Styles */
+
+  .ad-container {
+    background-color: #fff;
+    margin: 16px 0;
+
+  }
+
+  .ad-header {
+    background-color: #000;
+    padding: 12px 16px;
+  }
+
+  .ad-header h4 {
+    color: #fff;
+    margin: 0;
+    font-family: "Oswald";
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 400;
+  }
+
+  .ad-content {
+    padding: 16px;
+  }
+
+  .ad-placeholder {
+    background-color: #f1f1f1;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+  }
+
+  .ad-placeholder span {
+    color: #666;
+    font-family: "Open Sans";
+  }
+
+
+
+
+
+
+
+
+
+ /* Tag */
+ .tag-container {
+    background-color: #fff;
+    margin: 16px 0;
+  }
+  
+  /* Tag Header */
+  .tag-header {
+    padding: 8px 16px;
+    font-family: "Open Sans";
+    font-size: 12px;
+    line-height: 18px;
+    font-weight: 400;
+  
+  }
+  
+  /* Custom Black */
+  .custom-black {
+    background-color: #000;
+    color: #fff;
+    font-family: "Open Sans";
+    font-size: 15px;
+    line-height: 23px;
+    font-weight: 400;
+
+  }
+  
+  /* Custom Tag */
+  .custom-tag {
+    display: inline-block;
+    padding: 4px 8px;
+    border-radius: 4px;
+    margin-right: 4px;
+    transition: all 0.3s ease;
+  }
+  
+  .custom-tag:hover {
+    opacity: 0.8;
+    cursor: pointer;
+  }
+  
+  .custom-tag.custom-black {
+    background-color: #000;
+    color: #fff;
+  }
+  
+  .custom-tag.custom-light-grey {
+    background-color: #f1f1f1;
+    color: #000;
+  }
+  
+  .custom-small {
+    font-size: 14px;
+  }
+  
+  .custom-margin-bottom {
+    margin-bottom: 20px;
+  }
+  
