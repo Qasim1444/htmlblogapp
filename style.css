@@ -514,36 +514,26 @@ img {
  /* Tag */
  .tag-container {
     background-color: #fff;
-    margin: 16px 0;
+  
   }
   
   /* Tag Header */
   .tag-header {
-    padding: 8px 16px;
-    font-family: "Open Sans";
-    font-size: 12px;
-    line-height: 18px;
-    font-weight: 400;
-  
+   
+    padding: 0px 16px !important;
   }
   
   /* Custom Black */
   .custom-black {
     background-color: #000;
     color: #fff;
-    font-family: "Open Sans";
-    font-size: 15px;
-    line-height: 23px;
-    font-weight: 400;
-
   }
   
   /* Custom Tag */
   .custom-tag {
     display: inline-block;
     padding: 4px 8px;
-    border-radius: 4px;
-    margin-right: 4px;
+    
     transition: all 0.3s ease;
   }
   
